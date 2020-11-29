@@ -1,7 +1,7 @@
 import anime from 'animejs';
 
 anime({
-  targets: 'div',
+  targets: '.turn',
   translateX: 250,
   rotate: '1turn',
   backgroundColor: '#FFF',
