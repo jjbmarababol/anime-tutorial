@@ -3,3 +3,8 @@ svg {
   height: 100vh;
   margin: 0 auto;
 }
+
+path {
+  transform-origin: center center;
+  transform-box: fill-box;
+}
