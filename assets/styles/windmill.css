@@ -1,4 +1,19 @@
-#aermotor {
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+svg {
+  width: 100%;
+  height: auto;
+}
+#aermotor,
+#mill,
+#turbine {
   transform-box: fill-box;
   transform-origin: center center;
+}
+
+#turbine {
+  transform-origin: 91px 123px;
 }
