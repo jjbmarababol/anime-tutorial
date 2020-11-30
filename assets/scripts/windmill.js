@@ -1,6 +1,8 @@
 
 anime({
-  targets: '#aermotor',
-  rotate: 270,
+  targets: ['#aermotor', '#mill'],
+  rotate: 360,
+  easing: 'linear',
   loop: true,
+  duration: 2000,
 });
